@@ -1,25 +1,72 @@
+# Create: Santa Lucia Addon
 
-Installation information
-=======
+Addon desenvolvido para o mod **Create**, utilizando **NeoForge 1.21.1**, criado para atender necessidades específicas de um mundo customizado em um servidor de Minecraft.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Este projeto foi desenvolvido em colaboração com um amigo e teve como principal objetivo **estender funcionalidades do Create**, respeitando sua arquitetura, padrões e filosofia de design.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+---
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## 🎯 Objetivo do projeto
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+- Criar um **addon funcional e integrado** ao Create
+- Atender demandas específicas de um mundo/servidor customizado
+- Aprender a trabalhar com:
+  - Código legado e open-source
+  - Documentação técnica extensa
+  - APIs de mods complexos
+  - Ambiente moderno de modding (NeoForge)
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+---
+
+## 🧱 Tecnologias utilizadas
+
+- **Java**
+- **Gradle**
+- **NeoForge 1.21.1**
+- **Create Mod (addon)**
+- Ambiente de desenvolvimento para modding Minecraft
+
+---
+
+## 🧠 Processo de desenvolvimento
+
+O desenvolvimento envolveu:
+
+- Estudo do **repositório público do Create**
+- Leitura e interpretação da **documentação oficial**
+- Compreensão da arquitetura interna do mod
+- Implementação de extensões compatíveis com o ecossistema existente
+- Testes em ambiente de servidor real
+
+Esse processo exigiu adaptação, investigação de código e entendimento de como diferentes sistemas se comunicam dentro do jogo.
+
+---
+
+## 🌍 Contexto de uso
+
+Este addon foi pensado para funcionar dentro de um **servidor de Minecraft customizado**, o que exigiu atenção a:
+
+- Compatibilidade
+- Estabilidade
+- Integração com outros mods
+- Experiência do jogador no mundo específico
+
+Esse contexto ajudou a consolidar conhecimentos não apenas em código, mas também em **infraestrutura de servidores e ambientes multiplayer**.
+
+---
+
+## 🤝 Colaboração
+
+Projeto desenvolvido em colaboração com um amigo, Marinho.
+A experiência reforçou práticas de comunicação técnica, divisão de responsabilidades e desenvolvimento conjunto.
+
+---
+
+## ⚠️ Observações
+
+- Este não é um mod genérico ou comercial
+- O foco principal foi **aprendizado e experimentação**
+- O projeto não visa substituir ou competir com o Create
+- Serve como extensão contextualizada para um cenário específico
+
+---
